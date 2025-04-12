@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+    <h2>Your Wardrobe</h2>
+    
+    {% if items %}
+    <div class="wardrobe-grid">
+        {% for item in items %}
+        <div class="wardrobe-item">
+            <img src="{{ url_for('static', filename='wardrobe/' ~ item) }}" 
+                 alt="{{ item.split('.')[0]|replace('_', ' ')|title }}">
+            <form action="{{ url_for('camera') }}" method="get">
+                <input type="hidden" name="shirt" value="{{ item }}">
+                <button type="submit">Try On</button>
+            </form>
+        </div>
+        {% endfor %}
+    </div>
+    {% else %}
+    <div class="empty-wardrobe">
+        <p>No clothing items found in wardrobe.</p>
+        <p>Please add PNG files to the static/wardrobe folder.</p>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

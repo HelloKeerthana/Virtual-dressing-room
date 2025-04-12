@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Virtual Try-On</h2>
+<div class="camera-container">
+    <div class="camera-frame">
+        <img src="{{ url_for('video_feed', shirt=shirt) }}" id="camera-feed" alt="Camera Feed">
+    </div>
+</div>
+{% endblock %}

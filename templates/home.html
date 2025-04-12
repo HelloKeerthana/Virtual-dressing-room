@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% block content %}
+<h2>Welcome to Virtual Dressing Room</h2>
+<p>Try on outfits virtually using your webcam!</p>
+{% endblock %}
+ index.html {% extends "base.html" %}
+{% block content %}
+<h2>Welcome to the Virtual Dressing Room!</h2>
+<p>Try out virtual clothes on yourself live!</p>
+<a href="{{ url_for('wardrobe') }}">Go to Wardrobe</a>
+{% endblock %}
