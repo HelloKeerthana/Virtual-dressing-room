@@ -1,0 +1,22 @@
+set FLASK_APP=app.py        
+>> set FLASK_ENV=development
+>> flask run
+
+http://127.0.0.1:5000/
+
+|-- thrift-store/
+|   |-- app.py               
+|   |-- camera.py           
+|   |-- requirements.txt
+|   |-- static/             
+|   |   |-- style.css        
+|   |   |-- shirt1.png        
+|   |   |-- shirt2.png         
+|   |   |-- shirt3.png         
+|   |   |-- shirt4.png         
+|   |-- templates/         
+|       |-- base.html
+|       |-- camera.html
+|       |-- home.html
+|       |-- index.html
+|       |-- wardrobe.html
