@@ -51,7 +51,7 @@ It's an interactive, fun way to visualize outfits before buying them – perfect
 | Role | Name | GitHub |
 |------|------|--------|
 | 🧠 Developer | **Keerthana** | [@HelloKeerthana](https://github.com/HelloKeerthana) |
-| 💡 Developer | **Prakarshi, Naishi & Polina** | [@PrakarshiNaishiPolina](https://github.com/PrakarshiNaishiPolina) |
+| 💡 Developer | **Prakarshi Polina** | [@PrakarshiNaishiPolina](https://github.com/PrakarshiNaishiPolina) |
 | 🎨 Developer | **Dikshya Pokhrel** | [@DikshyPokhrel](https://github.com/DikshyPokhrel) |
 | ⚙️ Developer | **Sree Deepti** | [@ksdsree26](https://github.com/ksdsree26) |
 
