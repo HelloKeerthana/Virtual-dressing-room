@@ -5,7 +5,7 @@ Overlay outfits on yourself live using your webcam and pose detection.
 
 ---
 
-## 💡 About the Project
+## 💡 About the Project 
 
 The **Virtual Dressing Room** is an Python project that uses **OpenCV** and **MediaPipe** to detect body landmarks and overlay clothing images onto a user’s shoulder area. 
 It's an interactive, fun way to visualize outfits before buying them – perfect for thrift or online clothing platforms.
